@@ -7,6 +7,6 @@ export const url = 'https://planview-media.s3.us-west-2.amazonaws.com/interview/
 
 //grabbing data from api with axios get 
 export const grabPVData = async ()=> {
-    const result = await axios.get(url).then(data => data);
+    const result = await axios.get(url).then(({Items}) => Items);
     return result;
 }

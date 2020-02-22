@@ -6,7 +6,7 @@ export const App = () => {
         const [data, setData] = useState([]);
 
         useEffect(()=>{
-            setData('hello');
+            grabPVData().then(APIData => setData(APIData));
         },[])
 
     return(
