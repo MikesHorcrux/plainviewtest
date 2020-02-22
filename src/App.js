@@ -1,4 +1,15 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
+import {grabPVData} from './services/planviewAPI'
 
-export const App = () => <p>Hello Mike can You see me!</p>
+export const App = () => {
+        const [data, setData] = useState([]);
+
+        useEffect(()=>{
+            setData('hello');
+        },[])
+
+    return(
+        <h2> {JSON.stringify(data) } </h2>
+    );
+}
