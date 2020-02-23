@@ -2,11 +2,16 @@
   text-align: center;
 }
 
+/* logo style */
 .Logo {
   height: 6vmin;
   pointer-events: none;
   padding: 3vmin;
 }
+
+
+
+
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -17,15 +22,3 @@
   color: darkmagenta;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
