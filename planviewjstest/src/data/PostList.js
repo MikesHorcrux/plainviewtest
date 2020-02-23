@@ -13,7 +13,8 @@ class PostList extends Component {
                     <p> {item.Track}</p>
                     )
                 })} */}
-                {JSON.stringify(PlanView)}
+                {JSON.stringify(PlanView.Items[1].Track)}
+                {console.log(PlanView)}
             </div>
         )
     }
