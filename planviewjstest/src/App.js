@@ -11,6 +11,7 @@ class App extends Component{
       <div className="App">
         <div>
         <img src={logo} alt="planview logo" className="Logo" />
+        
         </div>
         <div>
           <h2>Data should show!</h2>

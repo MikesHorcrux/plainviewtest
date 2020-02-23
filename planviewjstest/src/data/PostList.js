@@ -8,11 +8,12 @@ class PostList extends Component {
         
         return(
             <div>
-                {PlanView.map((item)=> {
+                {/* {PlanView.map((item)=> {
                     return(
                     <p> {item.Track}</p>
                     )
-                })}
+                })} */}
+                {JSON.stringify(PlanView)}
             </div>
         )
     }
