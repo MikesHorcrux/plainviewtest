@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './logo-planview-rebrand.png';
+import PostList from './data/PostList'; 
+
+
 
 class App extends Component{
   render(){
@@ -9,9 +12,10 @@ class App extends Component{
         <div>
         <img src={logo} alt="planview logo" className="Logo" />
         </div>
-        <header className="App-header">
-          <p>Hey Mike Lets Start Again!</p>
-        </header>
+        <div>
+          <h2>Data should show!</h2>
+          <PostList/>
+        </div>
       </div>
     );
   }
