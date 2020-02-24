@@ -12,7 +12,7 @@ const groupBy = (array ,key) => {
       return result;
     }, {}); // empty object is the initial value for result object
   };
-  const groupedByTrack = groupBy(PlanView.Items, 'Build');
+  const groupedByTrack = groupBy(PlanView.Items, 'Track');
   
   
 

@@ -6,7 +6,8 @@
 .Logo {
   height: 6vmin;
   pointer-events: none;
-  padding: 3vmin;
+  padding-top: 3vmin;
+  padding-bottom: 1.5vim;
 }
 
 
@@ -22,3 +23,78 @@
   color: darkmagenta;
 }
 
+/*Nav Bar Style*/
+.nav-container{
+  background-color: darkblue;
+  height: 40px;
+ 
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 36px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+/*Sid nav bar*/
+
+.side-nav-div{
+  height: 100em;
+  width: 12em;
+  background-color: lightslategray;
+  position: fixed; 
+  padding-top: 5%;
+}
+.side-nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.side-nav-bar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.side-nav-bar, li a:hover {
+  background-color: #555;
+  color: white;
+}
+/*description*/
+
+.description{
+  height: auto;
+  background-color: linen;
+  float: right;
+  margin-right: 20%;
+  margin-left: 30%;
+  margin-top: 50px;
+  padding: 5%;
+  
+  
+}
