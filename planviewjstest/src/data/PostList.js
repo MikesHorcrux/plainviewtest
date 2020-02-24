@@ -1,9 +1,10 @@
 import React, { Component} from "react";
 import PlanView from "../data/pvdata.json";
 
+
 //gouping all the arrays in an array by thier track
-const groupBy = (key) => {
-    return PlanView.reduce((result, currentValue) => {
+const groupBy = (array ,key) => {
+    return array.reduce((result, currentValue) => {
       // If an array already present for key, push it to the array. 
       (result[currentValue[key]] = result[currentValue[key]] || []).push(
         currentValue
@@ -11,7 +12,7 @@ const groupBy = (key) => {
       return result;
     }, {}); // empty object is the initial value for result object
   };
-  const groupedByTrack = groupBy('Track');
+  const groupedByTrack = groupBy(PlanView.Items, 'Build');
   
   
 
@@ -22,6 +23,7 @@ class PostList extends Component {
             <div>
                 
                 {
+               
                 console.log(groupedByTrack)
                 
                 

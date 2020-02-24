@@ -14,7 +14,7 @@ class App extends Component{
         
         </div>
         <div>
-          <h2>Data should show!</h2>
+          <h2>Data should show here when working:</h2>
           <PostList/>
         </div>
       </div>
