@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './logo-planview-rebrand.png';
-import PostList from './data/PostList'; 
+import PostList from './data/PostList';
+//import NavBar from "./Componets/NavBar";
 
 
 //
@@ -15,7 +16,7 @@ class App extends Component{
         <div>
         <img src={logo} alt="planview logo" className="Logo" />
         
-
+        
         
         
           
