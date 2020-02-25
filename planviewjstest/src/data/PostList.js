@@ -11,19 +11,27 @@ class PostList extends Component {
     render(){
       //Groups Data By Track 
       const groupedByTrack = lodash.groupBy(PlanView.Items, 'Track.Title')
-     // console.log(groupedByTrack)
+      //console.log(groupedByTrack)
       //console.log(PlanView)
+       
       
-      for (var i = 0; i < groupedByTrack.Build.length; i++) {
-        console.log(groupedByTrack.Build[i].Title);
-        console.log(groupedByTrack.Build[i].Description);
-        console.log("...")
-    }
+      function test(track){
+        
+        //  for (var i = 0; i < groupedByTrack.track.length; i++) {
+        //  console.log(groupedByTrack.track[i].Title);
+        //  console.log(groupedByTrack.track[i].Description);
+        //  console.log("...")
+        console.log(track)
+            console.log(groupedByTrack.track)
+            console.log("..........")
+            console.log(groupedByTrack.Build)
+         }
+         test("Build")
+
+         
+    
         return(
-            <div>
-                
-                test
-            </div>
+        <h1>test</h1>
         )
     }
 }
