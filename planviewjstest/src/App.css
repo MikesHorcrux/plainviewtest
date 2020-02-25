@@ -23,7 +23,9 @@
   color: darkmagenta;
 }
 
-/*Nav Bar Style*/
+
+/**
+Nav Bar Style
 .nav-container{
   background-color: darkblue;
   height: 40px;
@@ -49,14 +51,14 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover 
 li a:hover {
   background-color: #111;
 }
 
 
 
-/*Sid nav bar*/
+/*Sid nav bar
 
 .side-nav-div{
   height: 100em;
@@ -80,12 +82,12 @@ li a:hover {
   text-decoration: none;
 }
 
-/* Change the link color on hover */
+/* Change the link color on hover 
 .side-nav-bar, li a:hover {
   background-color: #555;
   color: white;
 }
-/*description*/
+/*description
 
 .description{
   height: auto;
@@ -97,4 +99,4 @@ li a:hover {
   padding: 5%;
   
   
-}
+}**/

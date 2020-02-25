@@ -1,19 +1,10 @@
 import React, { Component} from "react";
+import lodash from "lodash";
 import PlanView from "../data/pvdata.json";
 
 
-//gouping all the arrays in an array by thier track
-const groupBy = (array ,key) => {
-    return array.reduce((result, currentValue) => {
-      // If an array already present for key, push it to the array. 
-      (result[currentValue[key]] = result[currentValue[key]] || []).push(
-        currentValue
-      );
-      return result;
-    }, {}); // empty object is the initial value for result object
-  };
-  const groupedByTrack = groupBy(PlanView.Items, 'Track');
-  
+//Groups Data By Track 
+  const groupedByTrack = lodash.groupBy(PlanView.Items, 'Track.Title')
   
 
 class PostList extends Component {
